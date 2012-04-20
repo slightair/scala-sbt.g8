@@ -10,7 +10,7 @@ object ProjectBuild extends Build {
       name := "$name$",
       organization := "$organization$",
       version := "$version$",
-      scalaVersion := "$scala_version$"
+      scalaVersion := "$scala_version$",
       libraryDependencies ++= Seq(
         // test
         "org.specs2" %% "specs2" % "1.9" % "test",
