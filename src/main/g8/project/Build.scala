@@ -10,6 +10,7 @@ object ProjectBuild extends Build {
       name := "$name$",
       organization := "$organization$",
       version := "$version$",
+      scalacOptions ++= Seq("-deprecation"),
       scalaVersion := "$scala_version$",
       libraryDependencies ++= Seq(
         // test
